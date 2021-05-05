@@ -33,9 +33,13 @@ class Adestrador {
 
 
 
-    fun dirixirPartido(): Unit {}
+    fun dirixirPartido(): Unit {
+        println("O adestrador $id $nome $apelido está dirixindo o partido")
+    }
 
-    fun dirixirAdestramento(): Unit {}
+    fun dirixirAdestramento(): Unit {
+        println("O adestradir $id $nome $apelido está dirixindo o adestramento")
+    }
 
     /*
     * metodo toString
